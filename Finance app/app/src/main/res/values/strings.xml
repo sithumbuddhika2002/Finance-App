@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">FinancialApp</string>
+    <string name="main_btn" translatable="false">Get Started</string>
+    <string name="main_Text" translatable="false">The best app to manage your money</string>
+    <string name="sec_t1" translatable="false">Hello Sithum Buddhika</string>
+    <string name="sec_t2" translatable="false">sithumbuddhika@gmail.com</string>
+    <string name="sect3" translatable="false">Your balance</string>
+    <string name="sec_t4" translatable="false">Rs 23,451.58</string>
+</resources>

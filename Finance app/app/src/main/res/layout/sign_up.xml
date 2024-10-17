@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="24dp">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spacer"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"/>
+    </LinearLayout>
+
+    <!-- Name EditText -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/blue"
+        android:padding="10dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Email EditText -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="E-mail Address"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/blue"
+        android:padding="10dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Password EditText -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/blue"
+        android:padding="10dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Terms and Conditions -->
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Signing Up, I agree with Terms  Conditions"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"/>
+
+    <!-- Sign Up and Sign In Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Sign Up"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Sign In"
+            android:backgroundTint="@color/grey"
+            android:textColor="@color/white"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
